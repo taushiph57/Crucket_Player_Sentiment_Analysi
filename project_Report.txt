@@ -1,0 +1,163 @@
+CRICKET PLAYER SENTIMENT ANALYSIS
+
+MINI PROJECT REPORT
+
+Submitted By:
+Name: ____
+Course: MCA
+University: ____
+
+Academic Year: 2026-27
+1. INTRODUCTION
+
+Cricket is one of the most popular sports, and many people share their opinions about cricket players on social media. These comments can be positive, negative, or neutral.
+
+Cricket Player Sentiment Analysis is a project that analyzes comments about cricket players and identifies their sentiment. In this project, Python and TextBlob are used to analyze the comments.
+
+The project analyzes comments related to Virat Kohli, Rohit Sharma, and Jasprit Bumrah. The results are stored in a CSV file and represented using graphs for easy understanding.
+
+2. OBJECTIVES
+
+The main objectives of this project are:
+
+1. To analyze comments related to cricket players.
+2. To identify whether a comment is Positive, Negative, or Neutral.
+3. To calculate the total number of positive, negative, and neutral comments.
+4. To perform player-wise sentiment analysis.
+5. To display the analysis results using graphs.
+6. To understand how Python can be used for sentiment analysis.
+
+3. TECHNOLOGIES USED
+
+The following technologies are used in this project:
+
+1. Python
+   Python is used for programming and performing sentiment analysis.
+
+2. Pandas
+   Pandas is used to read, process, and save the dataset.
+
+3. NumPy
+   NumPy is used for numerical operations.
+
+4. TextBlob
+   TextBlob is used to calculate the sentiment of the comments.
+
+5. Matplotlib
+   Matplotlib is used to create graphs and visualize the results.
+
+6. CSV Dataset
+   CSV file is used to store cricket player names and their comments.
+
+7. Visual Studio Code
+   VS Code is used to write and run the Python program.
+
+   4. DATASET
+
+The dataset contains comments related to cricket players.
+
+The dataset has two main columns:
+
+1. Player
+   This column contains the name of the cricket player.
+
+2. Text
+   This column contains the comment about the player.
+
+The project uses comments related to:
+- Virat Kohli
+- Rohit Sharma
+- Jasprit Bumrah
+
+Each comment is analyzed and classified as Positive, Negative, or Neutral.
+
+5. METHODOLOGY
+
+The project works in the following steps:
+
+Step 1: Dataset Collection
+Cricket player comments are collected and stored in a CSV file.
+
+Step 2: Data Loading
+The Python program uses Pandas to read the CSV dataset.
+
+Step 3: Sentiment Analysis
+TextBlob analyzes each comment and calculates its sentiment polarity.
+
+Step 4: Sentiment Classification
+Based on the polarity value, each comment is classified as:
+- Positive
+- Negative
+- Neutral
+
+Step 5: Result Storage
+The analyzed results are saved in a CSV file named sentiment_results.csv.
+
+Step 6: Visualization
+Matplotlib is used to create graphs showing the sentiment results.
+
+Step 7: Project Summary
+The program displays the total number of comments and the number of Positive, Negative, and Neutral comments.
+
+6. IMPLEMENTATION
+
+The project is implemented using Python in Visual Studio Code.
+
+First, the cricket comments are loaded from the CSV file using Pandas. Then TextBlob is used to analyze the sentiment of each comment.
+
+The sentiment polarity is checked for every comment:
+
+- If polarity is greater than 0 → Positive
+- If polarity is less than 0 → Negative
+- If polarity is equal to 0 → Neutral
+
+After analysis, the results are saved in the output folder as sentiment_results.csv.
+
+Matplotlib is also used to create graphs for visualizing the sentiment results.
+
+7. RESULTS
+
+After running the sentiment analysis program, the following results were obtained:
+
+Total Comments: 12
+Positive Comments: 9
+Negative Comments: 3
+Neutral Comments: 0
+
+The analysis shows that most of the comments in the dataset are Positive.
+
+Player-wise, the comments related to Virat Kohli, Rohit Sharma, and Jasprit Bumrah were also analyzed separately.
+
+The final sentiment results are saved in:
+
+output/sentiment_results.csv
+
+Graphs are used to make the results easier to understand.
+
+8. CONCLUSION
+
+The Cricket Player Sentiment Analysis project successfully analyzes cricket-related comments and classifies them into Positive, Negative, and Neutral sentiments.
+
+In this project, Python, Pandas, TextBlob, and Matplotlib were used. The project helps in understanding people's opinions about cricket players from the given comments.
+
+The final results are stored in a CSV file and displayed using graphs.
+
+
+9. FUTURE SCOPE
+
+In the future, this project can be improved by:
+
+1. Using a larger social media dataset.
+2. Collecting real-time comments from social media platforms.
+3. Adding more cricket players.
+4. Using advanced Machine Learning models.
+5. Creating an interactive web dashboard.
+6. Improving sentiment analysis for Hindi and other languages.
+
+10. REFERENCES
+
+1. Python Documentation
+2. Pandas Documentation
+3. TextBlob Documentation
+4. Matplotlib Documentation
+5. Python Data Analysis resources

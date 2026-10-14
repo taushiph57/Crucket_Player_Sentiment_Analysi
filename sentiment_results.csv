@@ -1,0 +1,13 @@
+player,text,sentiment
+Virat Kohli,Virat played an amazing innings today,Positive
+Virat Kohli,What a brilliant performance by Virat,Positive
+Virat Kohli,Virat played very poorly today,Negative
+Virat Kohli,I love watching Virat play cricket,Positive
+Rohit Sharma,Rohit played an excellent innings,Positive
+Rohit Sharma,Great performance by Rohit today,Positive
+Rohit Sharma,Rohit made a very bad decision,Negative
+Rohit Sharma,Rohit is an amazing player,Positive
+Jasprit Bumrah,Bumrah bowled brilliantly today,Positive
+Jasprit Bumrah,What a fantastic bowling performance,Positive
+Jasprit Bumrah,Bumrah bowled poorly today,Negative
+Jasprit Bumrah,I really like Bumrah's bowling,Positive
